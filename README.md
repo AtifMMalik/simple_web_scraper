@@ -30,12 +30,12 @@ README.md
 
 ## ▶️ Quick Start
 1. Install dependencies:
-```nginx
+```bash
 pip install requests beautifulsoup4
 pip install requests
 ```
 2. Run:
-```nginx
+```bash
 python scraper.py
 ```
 3. Enter iteration limit when prompted:
