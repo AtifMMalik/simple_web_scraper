@@ -1,4 +1,5 @@
 # 🕸️ Mini Web Crawler
+[![My Skills](https://skillicons.dev/icons?i=python,json)](https://skillicons.dev)
 
 A lightweight Python-powered web crawler that discovers links, expands a crawl queue, and stores processed URLs — using **BeautifulSoup**, **Requests**, and **JSON**.
 
@@ -30,15 +31,20 @@ README.md
 
 ## ▶️ Quick Start
 1. Install dependencies:
+
+bash
 ```bash
 pip install requests beautifulsoup4
 pip install requests
 ```
 2. Run:
+
+bash
 ```bash
 python scraper.py
 ```
 3. Enter iteration limit when prompted:
+
 ```
 Enter the iteration limit: 50
 ```
@@ -79,18 +85,19 @@ Enter the iteration limit: 50
 
 ---
 ---
-## ⚠️ Notes
-- Practice crawler — not a production search indexer.
-- Don’t hammer sites; respect robots.txt and site terms.
-- Ignore/avoid committing large data/ files to git.
+> [!Note]
+> - Practice crawler — not a production search indexer.
+> - Don’t hammer sites; respect robots.txt and site terms.
+> - Ignore/avoid committing large data/ files to git.
 
 ---
 ---
 
 ## 💡 Future Enhancements
-- 🗄️ Flexible storage support (SQL, NoSQL, JSON, CSV, Excel)
-- 🔧 Custom processor callbacks for personalized HTML handling
-- ⏱️ Rate limiting
-- 🌐 Domain filtering
-- 📥 HTML caching
-- 🔍 Basic search index
+- [ ] 🗄️ Flexible storage support (SQL, NoSQL, JSON, CSV, Excel)
+- [ ] 🔧 Custom processor callbacks for personalised HTML handling
+- [ ] ⏱️ Rate limiting
+- [ ] 🌐 Domain filtering
+- [ ] 📥 HTML caching
+- [ ] 🔍 Basic search index
+
