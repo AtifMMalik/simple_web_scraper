@@ -55,14 +55,14 @@ pip install requests
    }
    ```
 
-2. Run:
+4. Run:
 
 bash
 ```bash
 python scraper.py
 ```
 
-3. Enter iteration limit when prompted:
+5. Enter iteration limit when prompted:
 
 ```
 Enter the iteration limit: 50
