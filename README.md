@@ -32,11 +32,11 @@ README.md
 ## ▶️ Quick Start
 1. Install dependencies:
 
-bash
-```bash
-pip install requests beautifulsoup4
-pip install requests
-```
+   bash
+   ```bash
+   pip install requests beautifulsoup4
+   pip install requests
+   ```
 2. Add data directory and file:
    - Create "/data/data.json" in the project.
 
@@ -57,16 +57,16 @@ pip install requests
 
 4. Run:
 
-bash
-```bash
-python scraper.py
-```
+   bash
+   ```bash
+   python scraper.py
+   ```
 
 5. Enter iteration limit when prompted:
 
-```
-Enter the iteration limit: 50
-```
+   ```
+   Enter the iteration limit: 50
+   ```
 
 ---
 ---
