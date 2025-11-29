@@ -37,12 +37,31 @@ bash
 pip install requests beautifulsoup4
 pip install requests
 ```
+2. Add data directory and file:
+   - Create "/data/data.json" in the project.
+
+3. Include seed URLs in data.json:   
+   json
+   ```json
+   {
+       "crawl_queue": [
+           "seed_URL_1",
+           "seed_URL_2",
+           "seed_URL_3",
+           "seed_URL_4"           
+       ],
+       "URLs": [
+       ]
+   }
+   ```
+
 2. Run:
 
 bash
 ```bash
 python scraper.py
 ```
+
 3. Enter iteration limit when prompted:
 
 ```
@@ -57,7 +76,7 @@ Enter the iteration limit: 50
 2. Pop a URL from the queue.
 3. Fetch page with a User-Agent header.
 4. Extract \<a href="..."> links with BeautifulSoup.
-5. Normalize, filter, and add new links to the queue.
+5. Normalise, filter, and add new links to the queue.
 6. Add the processed link to the URLs list.
 7. Save updated crawl_queue and URLs back to JSON.
 
